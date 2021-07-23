@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Positions</title>
+    <style>
+    .box{
+    width:100px ;
+    height: 100px;
+    box-shadow: 0 0 5px black;
+    left: 500px;
+    color: white;
+    }
+    .box1{
+    background-color: red;
+    position:absolute;
+
+    }
+    .container{
+    width: 500px;
+    height: 500px;
+    background-color:rgba(0,0,0,0.5);
+    position: relative;
+    left: 300px;
+    }
+    .box2{
+    background-color: limegreen;
+    position: absolute;
+    left: 200px;
+    }
+    .box3{
+    background-color: yellow;
+    position: absolute;
+    }
+    .box4{
+    background-color: teal;
+    position: fixed;
+    top: 300px;
+    right: 10%;
+    }
+    .box5{
+    background-color: purple;
+    posion:sticky;
+    top: 0;
+    }
+    </style>
+</head>
+<body>
+ <div class="box box1"></div>
+ <div class="container">
+ <div class="box box2"></div>
+ <div class="box box3"></div>
+ </div>
+ <div class="box box4"></div>
+ <div class="box box5"></div>
+</body>
+</html>

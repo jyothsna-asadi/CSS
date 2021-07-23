@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Display</title>
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+        }
+        div{
+            margin: 30px ;
+        }
+        h3{
+            background-color: lightsalmon;
+            padding: 5px;
+            margin: 5px;
+            display: inline;
+        }
+        span{
+            background-color: lime;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+        a{
+            background-color: blueviolet;
+            color: white;
+            display: block;
+            padding: 5px;
+            margin: 5px;
+        }
+        h1{
+           background-color: blue;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            display: none;
+        }
+        .parent{
+            background-color:lightgray;
+            padding: 15px;
+            text-align: center;
+        }
+        .child{
+            background-color: blueviolet;
+            color: whitesmoke;
+            padding: 15px;
+            width: 200px;
+            display: inline-block;
+            box-shadow: 0 0 10px black;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+   <!-- inline -->
+<div>
+    <h3>Good Morning</h3>
+    <h3>Good Evening</h3>
+    <h3>Good Afternoon</h3>
+</div>
+ <!-- block -->
+
+<p>
+    Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+   <span>1.Dolorum eveniet fuga laborum molestias quo sequi sit veritatis vero!</span>
+    <span>2.A accusamus aut autem, consectetur cupiditate deleniti dicta eum fuga</span>
+    <span>3.hic laboriosam laudantium modi nobis qui, reiciendis reprehenderit</span>
+    <span>4.suscipit tenetur totam voluptate.</span>
+</p>
+
+<!-- none -->
+<div>
+    <a href="">Home</a>
+    <a href="">About Us</a>
+    <a href="">Courses</a>
+    <a href="">Contact Us </a>
+</div>
+
+<!-- hide -->
+<div>
+    <h1>Hello I am hidden</h1>
+</div>
+
+<!-- inline Block -->
+<div class="parent">
+
+<div class="child">
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam doloremque doloribus est ex impedit ipsam itaque, laborum laudantium non quisquam repellat sunt totam veniam veritatis vero voluptatibus. Asperiores deserunt ea eos ex harum in, necessitatibus porro quod tempora totam.</p>
+</div>
+
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam doloremque doloribus est ex impedit ipsam itaque, laborum laudantium non quisquam repellat sunt totam veniam veritatis vero voluptatibus. Asperiores deserunt ea eos ex harum in, necessitatibus porro quod tempora totam.</p>
+    </div>
+
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam doloremque doloribus est ex impedit ipsam itaque, laborum laudantium non quisquam repellat sunt totam veniam veritatis vero voluptatibus. Asperiores deserunt ea eos ex harum in, necessitatibus porro quod tempora totam.</p>
+    </div>
+
+    <div class="child">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias aliquam doloremque doloribus est ex impedit ipsam itaque, laborum laudantium non quisquam repellat sunt totam veniam veritatis vero voluptatibus. Asperiores deserunt ea eos ex harum in, necessitatibus porro quod tempora totam.</p>
+    </div>
+
+</div>
+</body>
+</html>

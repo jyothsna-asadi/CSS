@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors 2</title>
+  <style>
+    input[type=text]{
+      background-color: blueviolet;
+      transition: all 0.5s;
+    }
+    input[type=text]:focus{
+      background-color: orangered;
+      color: white;
+      font-size: 18px;
+    }
+    input[type=password]{
+      background-color: limegreen;
+    }
+    input[type=submit]{
+      background-color: orangered;
+      transition: all 0.5s;
+    }
+    input[type=submit]:hover{
+      background-color: purple;
+      color: white;
+      padding: 14px 25px;
+      cursor: pointer;
+    }
+    ol li{
+      color: white;
+      font-family: "Comic Sans MS",sans-serif;
+      margin: 5px;
+    }
+    ol{
+      background-color:lightgray ;
+    }
+    ol li:nth-child(1){
+      background-color: orange;
+
+    }
+    ol li:nth-child(2){
+      background-color: blueviolet;
+
+    }
+    ol li:nth-child(3){
+      background-color: hotpink;
+
+    }
+    ol li:nth-child(4){
+      background-color: chocolate;
+
+    }
+  </style>
+</head>
+<body>
+<form action="">
+  <lable>User Name</lable>
+  <input type="text">
+  <br>
+  <label for="">Password</label>
+  <input type="Password">
+  <br>
+  <input type="Submit" value="Submit">
+</form>
+
+<h1>Mixed selector</h1>
+<ol>
+  <li>HTML</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>JavaScript</li>
+</ol>
+</body>
+</html>
